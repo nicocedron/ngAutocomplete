@@ -7,6 +7,7 @@
 	border: 1px solid #d4d4d4;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+	background: #fff;
 }
 
 .ng-autocomplete-holder > .ng-autocomplete-result {
