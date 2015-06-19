@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>ngAutocomplete</title>
+	<link rel="stylesheet" type="text/css" href="src/css/ngAutocomplete.css">
+</head>
+<body ng-controller="Ctrl as ctrl">
+
+<ng-autocomplete ng-model="ctrl.keyword"
+				 url="data/example_data.json"
+				 search-property="title"
+				 max-results="10"
+				 delay="300"
+				 min-length="2"
+				 allow-only-results="true"
+				 theme="red">
+</ng-autocomplete>
+
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="src/js/ngAutocomplete.js"></script>
+<script type="text/javascript">
+var app = angular.module('app', ['jkuri.autocomplete']);
+app.controller('Ctrl', [function () {
+	var self = this;
+}]);
+</script>
+</body>
+</html>
