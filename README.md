@@ -1,7 +1,7 @@
 # ngAutocomplete
 AngularJS Autocomplete
 
-Demo: [demo](http://demo.jankuri.com/ngAutocomplete)
+Live Example: [demo](http://demo.jankuri.com/ngAutocomplete)
 
 #### Installation
     $ bower install ngAutocomplete-jkuri
