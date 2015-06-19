@@ -1,0 +1,26 @@
+{
+  "name": "ng-simple-autocomplete",
+  "version": "0.7.0",
+  "description": "AngularJS Autocomplete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkuri/ngAutocomplete.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "Autocomplete",
+    "autocomplete",
+    "auto",
+    "suggest"
+  ],
+  "author": "Jan Kuri <jkuri88@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkuri/ngAutocomplete/issues"
+  },
+  "homepage": "https://github.com/jkuri/ngAutocomplete"
+}
