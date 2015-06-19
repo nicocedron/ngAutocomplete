@@ -17,14 +17,14 @@ Demo: [demo](http://demo.jankuri.com/ngAutocomplete)
 <body ng-controller="Ctrl as ctrl">
 
   <ng-autocomplete ng-model="ctrl.keyword"
-				           url="data/example_data.json"
-				           search-property="title"
-				           max-results="10"
-				           delay="300"
-				           min-length="2"
-				           allow-only-results="true"
-				           theme="red"
-				           placeholder="Išči ...">
+		   url="data/example_data.json"
+		   search-property="title"
+		   max-results="10"
+		   delay="300"
+		   min-length="2"
+		   allow-only-results="true"
+		   theme="red"
+		   placeholder="Išči ...">
 	</ng-autocomplete>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
