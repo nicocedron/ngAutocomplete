@@ -30,7 +30,7 @@ Live Example: [demo](http://demo.jankuri.com/ngAutocomplete)
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
 <script type="text/javascript" src="bower_components/ngAutocomplete-jkuri/src/js/ngAutocomplete.min.js"></script>
 <script type="text/javascript">
-var app = angular.module('app', ['jkuri.slimscroll']);
+var app = angular.module('app', ['jkuri.autocomplete']);
 app.controller('Ctrl', [function() {
 	var self = this;
 }]);
