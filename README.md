@@ -10,10 +10,10 @@ Demo: [demo](http://demo.jankuri.com/ngAutocomplete)
 
 ```html
 <!DOCTYPE html>
+<html ng-app="app">
 <head>
   <link rel="stylesheet" type="text/css" href="bower_components/ngAutocomplete-jkuri/src/css/ngAutocomplete.css">
 </head>
-<html ng-app="app">
 <body ng-controller="Ctrl as ctrl">
 
   <ng-autocomplete ng-model="ctrl.keyword"
