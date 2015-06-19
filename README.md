@@ -17,7 +17,7 @@ Demo: [demo](http://demo.jankuri.com/ngAutocomplete)
 <body ng-controller="Ctrl as ctrl">
 
   <ng-autocomplete ng-model="ctrl.keyword"
-		   	url="data/example_data.json"
+		   		url="data/example_data.json"
 		   search-property="title"
 		   max-results="10"
 		   delay="300"
