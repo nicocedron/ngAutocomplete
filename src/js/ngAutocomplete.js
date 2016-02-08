@@ -4,7 +4,7 @@ angular.module('jkuri.autocomplete', [])
 	var self = this;
 
 	self.getData = function (url, keyword) {
-		return $http.get(url, { query: keyword });
+		return $http.get(url, { params: { query: keyword } });
 	};
 
 	return self;
